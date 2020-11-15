@@ -1,0 +1,17 @@
+package IamLearningTests;
+
+public class SimpleCalculator {
+
+    public int getSum(int x, int y) {
+        return x + y;
+    }
+
+    public int getDivide(int x, int y) {
+        return x / y;
+    }
+
+    public int getMultiple(int x, int y) {
+        return x * y;
+    }
+
+}
