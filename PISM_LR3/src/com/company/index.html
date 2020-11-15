@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="Kalman Evgenia">
+    <title>TO • DO</title>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+</head>
+<header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <nav class="navbar navbar-static-top navbar-dark bg-inverse">
+                    <a class="navbar-brand" href="#" align="center">I am not sure what I do with this laboratory
+                        work</a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+<section class="jumbotron text-center">
+    <div class="container-fluid">
+        <h1 class="jumbotron-heading">TO DO</h1>
+        <p class="lead text-muted">Info from data base</p>
+        <p>
+            <a href="#" class="btn btn-primary my-2">Delete the list</a>
+        </p>
+    </div>
+</section>
+<div class="container-fluid">
+    <!-- Example row of columns -->
+    <div class="row" style="text-align: center;">
+        <div class="col-md-4">
+            <h2>Add</h2>
+            <form action="./InsertData" method="post">
+                <p>ID:</p>
+                <!-- Create an element with mandatory name attribute,
+                so that data can be transfer to the servlet using getParameter() -->
+                <input type="text" name="id" style="margin-bottom: 10px;"/>
+                <br/>
+                <p>String:</p>
+                <input type="text" name="string"/>
+                <br/><br/><br/>
+                <input type="submit"/>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <h2 class="align-items-center">Update</h2>
+            <form action="./InsertData" method="post">
+                <p>ID:</p>
+                <!-- Create an element with mandatory name attribute,
+                so that data can be transfer to the servlet using getParameter() -->
+                <input type="text" name="id" style="margin-bottom: 10px;"/>
+                <br/>
+                <p>String:</p>
+                <input type="text" name="string"/>
+                <br/><br/><br/>
+                <input type="submit"/>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <h2>Delete</h2>
+            <form action="./InsertData" method="post">
+                <p>ID:</p>
+                <!-- Create an element with mandatory name attribute,
+                so that data can be transfer to the servlet using getParameter() -->
+                <input type="text" name="id" style="margin-bottom: 10px;"/>
+                <br/>
+                <p>String:</p>
+                <input type="text" name="string"/>
+                <br/><br/><br/>
+                <input type="submit"/>
+            </form>
+        </div>
+    </div>
+    <hr>
+</div>
+
+</body>
+</html>
